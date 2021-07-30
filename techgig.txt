@@ -1,8 +1,6 @@
 
-#N=input()
-
-#Ni=list(map(int,input().split()))
-Ni=[6,1]
+N=input()
+Ni=list(map(int,input().split()))
 def largdev(i):
     ld=0
     if i%2==0:
